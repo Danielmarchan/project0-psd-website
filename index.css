@@ -86,7 +86,6 @@ div.tabs ul li a:hover {
 #hero {
     height: 500px;
     background-image: url("images/herobg.jpg");
-    background-repeat: none;
     background-position: center;
     background-size: cover;
     margin-top: 60px;
@@ -115,7 +114,6 @@ div.tabs ul li a:hover {
 
 /*Icons section*/
 #icons {
-    background-repeat: none;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
