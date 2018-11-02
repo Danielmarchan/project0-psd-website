@@ -1,0 +1,138 @@
+/*Font*/
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Buttons*/
+.btn-success {
+    background-color: #01A675;
+    border-color: #01A675;
+    font-size: 16px;
+}
+
+.btn-success:hover {
+    background-color: #007764;
+    border-color: #007764;
+}
+
+/*a*/
+a {
+    color: #01A675
+}
+
+a:hover {
+    color: #01A675
+}
+
+/*Position (functions)*/
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.center-block {
+    margin: auto;
+    width: 80%;
+}
+
+/*Navbar*/
+nav {
+    height: 60px;
+    padding: 5px;
+    background-color: white;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+nav * {
+    height: 50px;
+
+}
+
+#logo-img {
+    margin-left: 25px;
+}
+
+div.tabs ul {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+div.tabs ul li {
+    display: inline-block;
+    height: 40px;
+    margin: 0 15px;
+    padding: 5px 0;
+}
+
+div.tabs ul li a {
+    color: #333;
+}
+
+div.tabs ul li a:hover {
+    color: #01A675;
+    text-decoration: none;
+}
+
+/*Hero section*/
+#hero {
+    height: 500px;
+    background-image: url("images/herobg.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    margin-top: 60px;
+}
+
+.transp-black {
+    background-color: rgba(0, 0, 0, 0.30);
+    box-sizing: border-box;
+    padding: 150px 0;
+    height: 500px;
+    margin: auto;
+}
+
+#hero h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#hero button {
+    display: block;
+    margin: 60px auto;
+    padding: 10px 25px;
+}
+
+/*Icons section*/
+#icons {
+    background-repeat: none;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 15px 0;
+}
+
+section#icons > div {
+    width: 20%;
+    display:inline-block;
+}
+
+.fas, .fa {
+    color: white;
+    font-size: 40px;
+    background-color: #18B082;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
