@@ -85,7 +85,7 @@ div.tabs ul li a:hover {
 /*Hero section*/
 #hero {
     height: 500px;
-    background-image: url("images/herobg.jpg");
+    background-image: url("images/herobg.png");
     background-position: center;
     background-size: cover;
     margin-top: 60px;
